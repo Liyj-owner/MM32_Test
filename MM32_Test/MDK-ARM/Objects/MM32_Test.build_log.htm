@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lyj AutoBVT, Microsoft, LIC=SDAUH-WFRRS-VDWKA-12V0K-XYRSX-ZKVUX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      MM32LINKCM3.dll V1.0.0.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\MM32¿ª·¢°å\code\MM32_Test\MDK-ARM\MM32_Test.uvprojx
+Project File Date:  06/15/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\MDK\ARM\ARMCC\Bin'
+Build target 'MM32_Test'
+compiling softwarei2c.c...
+..\BSP\softwareI2C\softwarei2c.h(39): warning:  #1295-D: Deprecated declaration I2C_ReadByte - give arg types
+  uint8_t I2C_ReadByte();
+..\BSP\softwareI2C\softwarei2c.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif /* _I2C_H */
+..\BSP\softwareI2C\softwarei2c.c: 2 warnings, 0 errors
+compiling main.c...
+..\BSP\softwareI2C\softwarei2c.h(39): warning:  #1295-D: Deprecated declaration I2C_ReadByte - give arg types
+  uint8_t I2C_ReadByte();
+..\BSP\softwareI2C\softwarei2c.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif /* _I2C_H */
+..\Hardware\EEPROM\eeprom.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 		/*__EEPROM_H*/
+..\Hardware\BUZZER\beep.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /*__BEEP_H*/
+..\APP\main.c(81): warning:  #223-D: function "strlen" declared implicitly
+  				len=strlen(RecBuffer)-1;
+..\APP\main.c(82): warning:  #223-D: function "strncmp" declared implicitly
+  				if(!strncmp(RecBuffer,"BEEPON",len))
+..\APP\main.c(57): warning:  #177-D: variable "key_flag"  was declared but never referenced
+  	u8 key_flag=0;
+..\APP\main.c: 7 warnings, 0 errors
+compiling adc.c...
+compiling spi.c...
+compiling uart.c...
+compiling tim.c...
+compiling beep.c...
+..\Hardware\BUZZER\beep.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /*__BEEP_H*/
+..\Hardware\BUZZER\beep.c(16): warning:  #1-D: last line of file ends without a newline
+  }
+..\Hardware\BUZZER\beep.c: 2 warnings, 0 errors
+compiling sflash.c...
+compiling eeprom.c...
+..\BSP\softwareI2C\softwarei2c.h(39): warning:  #1295-D: Deprecated declaration I2C_ReadByte - give arg types
+  uint8_t I2C_ReadByte();
+..\BSP\softwareI2C\softwarei2c.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif /* _I2C_H */
+..\Hardware\EEPROM\eeprom.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 		/*__EEPROM_H*/
+..\Hardware\EEPROM\eeprom.c(281): warning:  #1-D: last line of file ends without a newline
+  }
+..\Hardware\EEPROM\eeprom.c: 4 warnings, 0 errors
+compiling led.c...
+linking...
+Program Size: Code=9408 RO-data=280 RW-data=56 ZI-data=1224  
+".\Objects\MM32_Test.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: MindMotion
+                http://www.mindmotion.com.cn/Download/MDK_KEIL/MindMotion.MM32W3xxB_DFP.1.0.7.pack
+                MindMotion.MM32W3xxB_DFP.1.0.7
+                MindMotion MM32W3xxB Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MM32_Test
+  E:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

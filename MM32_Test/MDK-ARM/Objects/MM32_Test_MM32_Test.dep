@@ -1,0 +1,1031 @@
+Dependencies for Project 'MM32_Test', Target 'MM32_Test': (DO NOT MODIFY !)
+F (..\Libraries\MM32L3xx\Source\system_MM32L3xx.c)(0x5D720270)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\system_mm32l3xx.o --omf_browse .\objects\system_mm32l3xx.crf --depend .\objects\system_mm32l3xx.d)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\Source\KEIL_StartAsm\startup_MM32L3xx.s)(0x5D720238)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "MM32W373PSB SETA 1"--list .\listings\startup_mm32l3xx.lst --xref -o .\objects\startup_mm32l3xx.o --depend .\objects\startup_mm32l3xx.d)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_adc.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_adc.o --omf_browse .\objects\hal_adc.crf --depend .\objects\hal_adc.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_aes.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_aes.o --omf_browse .\objects\hal_aes.crf --depend .\objects\hal_aes.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_bkp.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_bkp.o --omf_browse .\objects\hal_bkp.crf --depend .\objects\hal_bkp.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_can.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_can.o --omf_browse .\objects\hal_can.crf --depend .\objects\hal_can.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_crc.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_crc.o --omf_browse .\objects\hal_crc.crf --depend .\objects\hal_crc.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_dac.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_dac.o --omf_browse .\objects\hal_dac.crf --depend .\objects\hal_dac.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_dma.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_dma.o --omf_browse .\objects\hal_dma.crf --depend .\objects\hal_dma.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_exti.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_exti.o --omf_browse .\objects\hal_exti.crf --depend .\objects\hal_exti.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_flash.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_gpio.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_gpio.o --omf_browse .\objects\hal_gpio.crf --depend .\objects\hal_gpio.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_i2c.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_i2c.o --omf_browse .\objects\hal_i2c.crf --depend .\objects\hal_i2c.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_iwdg.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_iwdg.o --omf_browse .\objects\hal_iwdg.crf --depend .\objects\hal_iwdg.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_misc.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_misc.o --omf_browse .\objects\hal_misc.crf --depend .\objects\hal_misc.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_pwr.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_pwr.o --omf_browse .\objects\hal_pwr.crf --depend .\objects\hal_pwr.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_rcc.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_rtc.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_rtc.o --omf_browse .\objects\hal_rtc.crf --depend .\objects\hal_rtc.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_spi.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_spi.o --omf_browse .\objects\hal_spi.crf --depend .\objects\hal_spi.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_tim.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_tim.o --omf_browse .\objects\hal_tim.crf --depend .\objects\hal_tim.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_uart.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_uart.o --omf_browse .\objects\hal_uart.crf --depend .\objects\hal_uart.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\Libraries\MM32L3xx\HAL_lib\src\HAL_wwdg.c)(0x5D7201C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\hal_wwdg.o --omf_browse .\objects\hal_wwdg.crf --depend .\objects\hal_wwdg.d)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\APP\main.c)(0x5EE8BC5A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\delay\delay.h)(0x5D7211A9)
+I (..\BSP\uart\uart.h)(0x5EE8BCFB)
+I (E:\MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Hardware\LED\led.h)(0x5EDCD685)
+I (..\Hardware\EEPROM\eeprom.h)(0x5EDCD284)
+I (..\BSP\softwareI2C\softwarei2c.h)(0x5EE8BCFB)
+I (..\Hardware\FLASH\sflash.h)(0x5EE8BCFB)
+I (..\BSP\SPI\spi.h)(0x5EE8BCFB)
+I (..\BSP\tim\tim.h)(0x5EE8BCFB)
+I (..\Hardware\KEY\key.h)(0x5ED3C4B6)
+I (..\Hardware\BUZZER\beep.h)(0x5EE79962)
+I (..\BSP\adc\adc.h)(0x5EE78A01)
+F (..\BSP\adc\adc.c)(0x5EE78A24)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\BSP\adc\adc.h)(0x5EE78A01)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\uart\uart.h)(0x5EE8BCFB)
+I (E:\MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+F (..\BSP\delay\delay.c)(0x5D7211A7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\BSP\delay\delay.h)(0x5D7211A9)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\BSP\softwareI2C\softwarei2c.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\softwarei2c.o --omf_browse .\objects\softwarei2c.crf --depend .\objects\softwarei2c.d)
+I (..\BSP\softwareI2C\softwarei2c.h)(0x5EE8BCFB)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+F (..\BSP\SPI\spi.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (..\BSP\SPI\spi.h)(0x5EE8BCFB)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+F (..\BSP\sys\sys.c)(0x5D7211A2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\BSP\tim\tim.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
+I (..\BSP\tim\tim.h)(0x5EE8BCFB)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+F (..\BSP\uart\uart.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\uart\uart.h)(0x5EE8BCFB)
+I (E:\MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\Hardware\BUZZER\beep.c)(0x5EE61F3D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (..\Hardware\BUZZER\beep.h)(0x5EE79962)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\tim\tim.h)(0x5EE8BCFB)
+F (..\Hardware\EEPROM\eeprom.c)(0x5E6BA5B9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\eeprom.o --omf_browse .\objects\eeprom.crf --depend .\objects\eeprom.d)
+I (..\Hardware\EEPROM\eeprom.h)(0x5EDCD284)
+I (..\BSP\softwareI2C\softwarei2c.h)(0x5EE8BCFB)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\BSP\uart\uart.h)(0x5EE8BCFB)
+I (E:\MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\Hardware\FLASH\sflash.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\sflash.o --omf_browse .\objects\sflash.crf --depend .\objects\sflash.d)
+I (..\Hardware\FLASH\sflash.h)(0x5EE8BCFB)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\BSP\SPI\spi.h)(0x5EE8BCFB)
+F (..\Hardware\KEY\key.c)(0x5ED3C4B6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\Hardware\KEY\key.h)(0x5ED3C4B6)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
+I (..\BSP\delay\delay.h)(0x5D7211A9)
+F (..\Hardware\LED\led.c)(0x5EE8BCFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\BSP\adc -I ..\BSP\delay -I ..\BSP\softwareI2C -I ..\BSP\SPI -I ..\BSP\sys -I ..\BSP\tim -I ..\BSP\uart -I ..\Hardware\BUZZER -I ..\Hardware\EEPROM -I ..\Hardware\FLASH -I ..\Hardware\LED -I ..\Hardware\KEY -I ..\Libraries\CMSIS\KEIL_CORE -I ..\Libraries\MM32L3xx\HAL_lib\inc -I ..\Libraries\MM32L3xx\Include -I ..\Libraries\MM32L3xx\Source\KEIL_StartAsm -I ..\Libraries\MM32L3xx\HAL_lib\src -I ..\Libraries\MM32L3xx\Source-I.\RTE\_MM32_Test-IE:\MDK\ARM\PACK\MindMotion\MM32W3xxB_DFP\1.0.7\Device\MM32W3xxB\Include-IE:\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMM32W373PSB -DUSE_STDPERIPH_DRIVER-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Hardware\LED\led.h)(0x5EDCD685)
+I (..\BSP\sys\sys.h)(0x5D7211AA)
+I (..\Libraries\MM32L3xx\Include\HAL_device.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\MM32L3xx.h)(0x5D7202DF)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cm3.h)(0x5D6DBE37)
+I (E:\MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5D6E012E)
+I (..\Libraries\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5D6E012E)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_conf.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_aes.h)(0x5D720392)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_adc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_bkp.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_can.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_crc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dac.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_dma.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_exti.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_flash.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_gpio.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_i2c.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_iwdg.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_pwr.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rcc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_rtc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_spi.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_tim.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_uart.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_wwdg.h)(0x5D7201C7)
+I (..\Libraries\MM32L3xx\HAL_lib\inc\HAL_misc.h)(0x5D7201C6)
+I (..\Libraries\MM32L3xx\Include\SYSTEM_MM32L3xx.h)(0x5D7201C7)
